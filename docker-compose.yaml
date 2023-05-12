@@ -6,7 +6,7 @@ services:
       - backend
     stdin_open: true  
     ports:
-      - 3000:3000
+      - 3000:3003
     networks:
       yolo-ken-network:
         ipv4_address: 172.20.0.4
@@ -38,5 +38,5 @@ networks:
     ipam:
       driver: default
       config:
-        - subnet: 172.20.0.0/16
+        - subnet: 172.20.0.1
         
