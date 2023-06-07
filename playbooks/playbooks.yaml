@@ -3,3 +3,6 @@
   tasks:
     - name: ping the machines
      ping:
+    -name: create a file
+     shell:
+     
