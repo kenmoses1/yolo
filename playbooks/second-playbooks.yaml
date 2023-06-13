@@ -2,7 +2,6 @@
   hosts: all
   tasks:
     - name: ping the machines
-     ping:
+      ping:
     - name: create a file
-     shell: 'touch musafile.txt'
-     
+      shell: 'touch musafile.txt'
